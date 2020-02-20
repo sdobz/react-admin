@@ -186,7 +186,7 @@ export default introspectionResults => (
                         gqlTypes.selectionSet(fields)
                     ),
                     gqlTypes.field(
-                        gqlTypes.name(`_${queryType.name}Meta`),
+                        gqlTypes.name(`${queryType.name}Meta`),
                         gqlTypes.name('total'),
                         metaArgs,
                         null,
